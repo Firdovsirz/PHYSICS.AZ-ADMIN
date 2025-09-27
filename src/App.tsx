@@ -22,7 +22,7 @@ import Home from "./pages/Dashboard/Home";
 export default function App() {
   return (
     <>
-      <Router>
+      <Router basename="/admin">
         <ScrollToTop />
         <Routes>
           {/* Dashboard Layout */}
